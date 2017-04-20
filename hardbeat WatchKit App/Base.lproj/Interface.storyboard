@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--interfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="interfaceController" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="hardbeat_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Rutinas Activas" textAlignment="left" id="Ym9-yC-igZ">
+                            <color key="textColor" red="0.80784313730000001" green="0.0" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <table alignment="left" id="cgZ-KH-JqZ">
+                            <items>
+                                <tableRow identifier="rutinaRow" id="6b5-Jq-gPF" customClass="rutinaRow" customModule="hardbeat_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="asl-wP-NKu">
+                                        <items>
+                                            <imageView width="19" height="21" alignment="left" id="e6G-7x-kRE"/>
+                                            <label alignment="left" text="Label" textAlignment="left" id="wPD-Oz-SBQ">
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="icon" destination="e6G-7x-kRE" id="5BY-d0-WAq"/>
+                                        <outlet property="titulo" destination="wPD-Oz-SBQ" id="j4h-7u-IO9"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="tabRutinas" destination="cgZ-KH-JqZ" id="24T-nl-Dme"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="550" y="312"/>
+        </scene>
+        <!--Rutina-->
+        <scene sceneID="V7f-TQ-RGK">
+            <objects>
+                <controller identifier="infoInterfaceController" title="Rutina" id="i3R-4e-oJf" customClass="infoInterfaceController" customModule="hardbeat_WatchKit_Extension">
+                    <items>
+                        <imageView width="30" height="30" alignment="left" id="bq5-i4-GeK"/>
+                        <label alignment="left" text="Label" id="fQ8-ET-Jhb">
+                            <color key="textColor" red="0.80784313730000001" green="0.0" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Label" id="IM4-Gc-QMQ">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <label alignment="left" text="Label" id="54C-3l-enc">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption1"/>
+                        </label>
+                        <button width="1" alignment="left" title="Empezar" id="kSI-jF-W6U">
+                            <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="empezar" destination="i3R-4e-oJf" id="Jnc-iw-Up6"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                    <connections>
+                        <outlet property="duracion" destination="54C-3l-enc" id="BtM-RE-vvQ"/>
+                        <outlet property="fecha" destination="IM4-Gc-QMQ" id="ryp-8K-aKF"/>
+                        <outlet property="icon" destination="bq5-i4-GeK" id="E5m-0D-nCE"/>
+                        <outlet property="titulo" destination="fQ8-ET-Jhb" id="SZk-WK-29o"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="550" y="34"/>
+        </scene>
+        <!--Cronometro-->
+        <scene sceneID="QAp-fA-yHm">
+            <objects>
+                <controller identifier="meterInterfaceController" title="Cronometro" id="JBb-eT-gry" customClass="meterInterfaceController" customModule="hardbeat_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Label" id="v34-4W-Sbc">
+                            <color key="textColor" red="0.80784313730000001" green="0.0" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <timer alignment="left" textAlignment="center" id="H8n-vr-oPv">
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                        </timer>
+                        <label alignment="left" text="Calorias:" id="ijd-38-Kld"/>
+                        <label alignment="left" text="Frecuencia:" id="yEc-YD-xVa"/>
+                        <button width="1" alignment="left" title="Iniciar" id="oWj-Wi-iAv">
+                            <connections>
+                                <action selector="accion" destination="JBb-eT-gry" id="wmr-NS-cfd"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="boton" destination="oWj-Wi-iAv" id="Xyi-aO-bKF"/>
+                        <outlet property="calorias" destination="ijd-38-Kld" id="PXW-IX-QCO"/>
+                        <outlet property="frecuencia" destination="yEc-YD-xVa" id="Y7y-M5-ieN"/>
+                        <outlet property="tiempo" destination="H8n-vr-oPv" id="ajd-Ag-Ljm"/>
+                        <outlet property="titulo" destination="v34-4W-Sbc" id="2Rs-t6-dpy"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="833" y="34"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="282" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="hardbeat_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="550" y="643"/>
+        </scene>
+    </scenes>
+</document>

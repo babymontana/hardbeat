@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872BA2F41E6D0F670019552D /* NoticiasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BA2F31E6D0F670019552D /* NoticiasTableViewController.swift */; };
+		873017F91E6DEAA5009987CB /* NoticiaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873017F81E6DEAA5009987CB /* NoticiaInfoViewController.swift */; };
+		873017FB1E6DF262009987CB /* rutinasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873017FA1E6DF262009987CB /* rutinasTableViewController.swift */; };
+		873017FD1E6DF27B009987CB /* RutinasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873017FC1E6DF27B009987CB /* RutinasTableViewCell.swift */; };
+		873017FF1E6E0C52009987CB /* rutina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873017FE1E6E0C52009987CB /* rutina.swift */; };
+		8732EE611E6A411E00EB8E68 /* usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732EE601E6A411E00EB8E68 /* usuario.swift */; };
+		873660E01E7079A3007FEAEE /* rutinaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873660DF1E7079A3007FEAEE /* rutinaRow.swift */; };
+		8740F0261E6FD8C4001C706D /* RutinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740F0251E6FD8C4001C706D /* RutinaViewController.swift */; };
+		8748D90B1E72694D000BBE8C /* rutinaCompleta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748D90A1E72694D000BBE8C /* rutinaCompleta.swift */; };
+		8748D90D1E727094000BBE8C /* protocolRutina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8748D90C1E727094000BBE8C /* protocolRutina.swift */; };
+		8756FBCD1E709A0000458406 /* meterInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756FBCC1E709A0000458406 /* meterInterfaceController.swift */; };
+		8756FBCF1E70A5E500458406 /* infoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756FBCE1E70A5E500458406 /* infoInterfaceController.swift */; };
+		8764A4441E69436B00309C87 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764A4431E69436B00309C87 /* SignUpViewController.swift */; };
+		8770F7921E68A1D500CC1EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7911E68A1D500CC1EB6 /* AppDelegate.swift */; };
+		8770F7971E68A1D500CC1EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8770F7951E68A1D500CC1EB6 /* Main.storyboard */; };
+		8770F7991E68A1D500CC1EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8770F7981E68A1D500CC1EB6 /* Assets.xcassets */; };
+		8770F79C1E68A1D500CC1EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8770F79A1E68A1D500CC1EB6 /* LaunchScreen.storyboard */; };
+		8770F7A71E68A1D500CC1EB6 /* hardbeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7A61E68A1D500CC1EB6 /* hardbeatTests.swift */; };
+		8770F7B21E68A1D500CC1EB6 /* hardbeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7B11E68A1D500CC1EB6 /* hardbeatUITests.swift */; };
+		8770F7B71E68A1D500CC1EB6 /* hardbeat WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8770F7B61E68A1D500CC1EB6 /* hardbeat WatchKit App.app */; };
+		8770F7BD1E68A1D500CC1EB6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8770F7BB1E68A1D500CC1EB6 /* Interface.storyboard */; };
+		8770F7BF1E68A1D500CC1EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8770F7BE1E68A1D500CC1EB6 /* Assets.xcassets */; };
+		8770F7C61E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8770F7C51E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8770F7CD1E68A1D500CC1EB6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7CC1E68A1D500CC1EB6 /* InterfaceController.swift */; };
+		8770F7CF1E68A1D500CC1EB6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7CE1E68A1D500CC1EB6 /* ExtensionDelegate.swift */; };
+		8770F7D11E68A1D500CC1EB6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7D01E68A1D500CC1EB6 /* NotificationController.swift */; };
+		8770F7D31E68A1D500CC1EB6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7D21E68A1D500CC1EB6 /* ComplicationController.swift */; };
+		8770F7D51E68A1D500CC1EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8770F7D41E68A1D500CC1EB6 /* Assets.xcassets */; };
+		8770F7F21E68AA5300CC1EB6 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8770F7F11E68AA5300CC1EB6 /* HealthKit.framework */; };
+		8770F7FE1E68CF2100CC1EB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770F7FD1E68CF2100CC1EB6 /* LoginViewController.swift */; };
+		877629341E696911001EA71E /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877629331E696911001EA71E /* PerfilViewController.swift */; };
+		877EAE501E738C94000AC31A /* graficasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877EAE4F1E738C94000AC31A /* graficasViewController.swift */; };
+		877EAE521E73C83E000AC31A /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877EAE511E73C83E000AC31A /* Charts.framework */; };
+		877EAE541E73C844000AC31A /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877EAE531E73C844000AC31A /* RealmSwift.framework */; };
+		8794EC321E7277A6002EF58A /* rutinaCompletaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8794EC311E7277A6002EF58A /* rutinaCompletaViewController.swift */; };
+		87AAE5681E69552000A0F850 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AAE5671E69552000A0F850 /* HealthKit.framework */; };
+		87AAE56C1E6956C200A0F850 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AAE56B1E6956C200A0F850 /* CoreData.framework */; };
+		87AAE56E1E6956D000A0F850 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AAE56D1E6956D000A0F850 /* libsqlite3.tbd */; };
+		87B0CB551E6D12E800EF92C6 /* noticia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0CB541E6D12E800EF92C6 /* noticia.swift */; };
+		87B0CB571E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0CB561E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift */; };
+		87F2ECAB1E6A7D11003D59DF /* InformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2ECAA1E6A7D11003D59DF /* InformacionViewController.swift */; };
+		87F34FD91E68FB6900A0405F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F34FD81E68FB6900A0405F /* GoogleService-Info.plist */; };
+		E587B158E4639B1F6C4CCF94 /* Pods_hardbeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8770F7A31E68A1D500CC1EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8770F7861E68A1D400CC1EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8770F78D1E68A1D400CC1EB6;
+			remoteInfo = hardbeat;
+		};
+		8770F7AE1E68A1D500CC1EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8770F7861E68A1D400CC1EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8770F78D1E68A1D400CC1EB6;
+			remoteInfo = hardbeat;
+		};
+		8770F7B81E68A1D500CC1EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8770F7861E68A1D400CC1EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8770F7B51E68A1D500CC1EB6;
+			remoteInfo = "hardbeat WatchKit App";
+		};
+		8770F7C71E68A1D500CC1EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8770F7861E68A1D400CC1EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8770F7C41E68A1D500CC1EB6;
+			remoteInfo = "hardbeat WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8770F7DC1E68A1D500CC1EB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8770F7C61E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7E01E68A1D500CC1EB6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8770F7B71E68A1D500CC1EB6 /* hardbeat WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hardbeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardbeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat.release.xcconfig"; sourceTree = "<group>"; };
+		66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardbeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat.debug.xcconfig"; sourceTree = "<group>"; };
+		872BA2F31E6D0F670019552D /* NoticiasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiasTableViewController.swift; sourceTree = "<group>"; };
+		873017F81E6DEAA5009987CB /* NoticiaInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaInfoViewController.swift; sourceTree = "<group>"; };
+		873017FA1E6DF262009987CB /* rutinasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinasTableViewController.swift; sourceTree = "<group>"; };
+		873017FC1E6DF27B009987CB /* RutinasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutinasTableViewCell.swift; sourceTree = "<group>"; };
+		873017FE1E6E0C52009987CB /* rutina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutina.swift; sourceTree = "<group>"; };
+		8732EE601E6A411E00EB8E68 /* usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usuario.swift; sourceTree = "<group>"; };
+		873660DF1E7079A3007FEAEE /* rutinaRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinaRow.swift; sourceTree = "<group>"; };
+		8740F0251E6FD8C4001C706D /* RutinaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutinaViewController.swift; sourceTree = "<group>"; };
+		8748D90A1E72694D000BBE8C /* rutinaCompleta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinaCompleta.swift; sourceTree = "<group>"; };
+		8748D90C1E727094000BBE8C /* protocolRutina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocolRutina.swift; sourceTree = "<group>"; };
+		8756FBCC1E709A0000458406 /* meterInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meterInterfaceController.swift; sourceTree = "<group>"; };
+		8756FBCE1E70A5E500458406 /* infoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoInterfaceController.swift; sourceTree = "<group>"; };
+		8764A4431E69436B00309C87 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8770F78E1E68A1D500CC1EB6 /* hardbeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hardbeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770F7911E68A1D500CC1EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8770F7961E68A1D500CC1EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8770F7981E68A1D500CC1EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8770F79B1E68A1D500CC1EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8770F79D1E68A1D500CC1EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770F7A21E68A1D500CC1EB6 /* hardbeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hardbeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770F7A61E68A1D500CC1EB6 /* hardbeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardbeatTests.swift; sourceTree = "<group>"; };
+		8770F7A81E68A1D500CC1EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770F7AD1E68A1D500CC1EB6 /* hardbeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hardbeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770F7B11E68A1D500CC1EB6 /* hardbeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hardbeatUITests.swift; sourceTree = "<group>"; };
+		8770F7B31E68A1D500CC1EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770F7B61E68A1D500CC1EB6 /* hardbeat WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hardbeat WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770F7BC1E68A1D500CC1EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8770F7BE1E68A1D500CC1EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8770F7C01E68A1D500CC1EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770F7C51E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hardbeat WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770F7CB1E68A1D500CC1EB6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8770F7CC1E68A1D500CC1EB6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8770F7CE1E68A1D500CC1EB6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8770F7D01E68A1D500CC1EB6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8770F7D21E68A1D500CC1EB6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8770F7D41E68A1D500CC1EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8770F7D61E68A1D500CC1EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770F7F01E68AA5300CC1EB6 /* hardbeat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hardbeat.entitlements; sourceTree = "<group>"; };
+		8770F7F11E68AA5300CC1EB6 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		8770F7FD1E68CF2100CC1EB6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		877629331E696911001EA71E /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		877EAE4A1E734125000AC31A /* hardbeat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hardbeat-Bridging-Header.h"; sourceTree = "<group>"; };
+		877EAE4F1E738C94000AC31A /* graficasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graficasViewController.swift; sourceTree = "<group>"; };
+		877EAE511E73C83E000AC31A /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/hardbeat-dsammvzijcvwghdibrmxbzlfarof/Build/Products/Debug-iphoneos/Charts/Charts.framework"; sourceTree = "<group>"; };
+		877EAE531E73C844000AC31A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/hardbeat-dsammvzijcvwghdibrmxbzlfarof/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		8794EC311E7277A6002EF58A /* rutinaCompletaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinaCompletaViewController.swift; sourceTree = "<group>"; };
+		87AAE5661E69552000A0F850 /* hardbeat WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "hardbeat WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		87AAE5671E69552000A0F850 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		87AAE5691E69569100A0F850 /* GTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = Pods/GoogleToolboxForMac/GTMDefines.h; sourceTree = "<group>"; };
+		87AAE56B1E6956C200A0F850 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		87AAE56D1E6956D000A0F850 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		87B0CB541E6D12E800EF92C6 /* noticia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noticia.swift; sourceTree = "<group>"; };
+		87B0CB561E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaTableViewCell.swift; sourceTree = "<group>"; };
+		87F2ECAA1E6A7D11003D59DF /* InformacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionViewController.swift; sourceTree = "<group>"; };
+		87F34FD81E68FB6900A0405F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8770F78B1E68A1D400CC1EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877EAE541E73C844000AC31A /* RealmSwift.framework in Frameworks */,
+				877EAE521E73C83E000AC31A /* Charts.framework in Frameworks */,
+				87AAE56E1E6956D000A0F850 /* libsqlite3.tbd in Frameworks */,
+				87AAE56C1E6956C200A0F850 /* CoreData.framework in Frameworks */,
+				8770F7F21E68AA5300CC1EB6 /* HealthKit.framework in Frameworks */,
+				E587B158E4639B1F6C4CCF94 /* Pods_hardbeat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F79F1E68A1D500CC1EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7AA1E68A1D500CC1EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7C21E68A1D500CC1EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AAE5681E69552000A0F850 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A772197B6D6E2AD55D58E18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D246E1D9725D0392F11893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */,
+				3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8732EE5F1E6A400F00EB8E68 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				8732EE601E6A411E00EB8E68 /* usuario.swift */,
+				87B0CB541E6D12E800EF92C6 /* noticia.swift */,
+				8748D90A1E72694D000BBE8C /* rutinaCompleta.swift */,
+				873017FE1E6E0C52009987CB /* rutina.swift */,
+				8748D90C1E727094000BBE8C /* protocolRutina.swift */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		8770F7851E68A1D400CC1EB6 = {
+			isa = PBXGroup;
+			children = (
+				8770F7901E68A1D500CC1EB6 /* hardbeat */,
+				8770F7A51E68A1D500CC1EB6 /* hardbeatTests */,
+				8770F7B01E68A1D500CC1EB6 /* hardbeatUITests */,
+				8770F7BA1E68A1D500CC1EB6 /* hardbeat WatchKit App */,
+				8770F7C91E68A1D500CC1EB6 /* hardbeat WatchKit Extension */,
+				8770F78F1E68A1D500CC1EB6 /* Products */,
+				8770F7EB1E68A4FE00CC1EB6 /* Frameworks */,
+				00D246E1D9725D0392F11893 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8770F78F1E68A1D500CC1EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8770F78E1E68A1D500CC1EB6 /* hardbeat.app */,
+				8770F7A21E68A1D500CC1EB6 /* hardbeatTests.xctest */,
+				8770F7AD1E68A1D500CC1EB6 /* hardbeatUITests.xctest */,
+				8770F7B61E68A1D500CC1EB6 /* hardbeat WatchKit App.app */,
+				8770F7C51E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8770F7901E68A1D500CC1EB6 /* hardbeat */ = {
+			isa = PBXGroup;
+			children = (
+				8732EE5F1E6A400F00EB8E68 /* classes */,
+				87F34FD81E68FB6900A0405F /* GoogleService-Info.plist */,
+				8770F7F81E68CDB200CC1EB6 /* controller */,
+				8770F7F01E68AA5300CC1EB6 /* hardbeat.entitlements */,
+				8770F7911E68A1D500CC1EB6 /* AppDelegate.swift */,
+				8770F7951E68A1D500CC1EB6 /* Main.storyboard */,
+				8770F7981E68A1D500CC1EB6 /* Assets.xcassets */,
+				8770F79A1E68A1D500CC1EB6 /* LaunchScreen.storyboard */,
+				8770F79D1E68A1D500CC1EB6 /* Info.plist */,
+				877EAE4A1E734125000AC31A /* hardbeat-Bridging-Header.h */,
+			);
+			path = hardbeat;
+			sourceTree = "<group>";
+		};
+		8770F7A51E68A1D500CC1EB6 /* hardbeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8770F7A61E68A1D500CC1EB6 /* hardbeatTests.swift */,
+				8770F7A81E68A1D500CC1EB6 /* Info.plist */,
+			);
+			path = hardbeatTests;
+			sourceTree = "<group>";
+		};
+		8770F7B01E68A1D500CC1EB6 /* hardbeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8770F7B11E68A1D500CC1EB6 /* hardbeatUITests.swift */,
+				8770F7B31E68A1D500CC1EB6 /* Info.plist */,
+			);
+			path = hardbeatUITests;
+			sourceTree = "<group>";
+		};
+		8770F7BA1E68A1D500CC1EB6 /* hardbeat WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8770F7BB1E68A1D500CC1EB6 /* Interface.storyboard */,
+				8770F7BE1E68A1D500CC1EB6 /* Assets.xcassets */,
+				8770F7C01E68A1D500CC1EB6 /* Info.plist */,
+			);
+			path = "hardbeat WatchKit App";
+			sourceTree = "<group>";
+		};
+		8770F7C91E68A1D500CC1EB6 /* hardbeat WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				87AAE5661E69552000A0F850 /* hardbeat WatchKit Extension.entitlements */,
+				8770F7CC1E68A1D500CC1EB6 /* InterfaceController.swift */,
+				873660DF1E7079A3007FEAEE /* rutinaRow.swift */,
+				8770F7CE1E68A1D500CC1EB6 /* ExtensionDelegate.swift */,
+				8770F7D01E68A1D500CC1EB6 /* NotificationController.swift */,
+				8770F7D21E68A1D500CC1EB6 /* ComplicationController.swift */,
+				8770F7D41E68A1D500CC1EB6 /* Assets.xcassets */,
+				8770F7D61E68A1D500CC1EB6 /* Info.plist */,
+				8770F7CA1E68A1D500CC1EB6 /* Supporting Files */,
+				8756FBCC1E709A0000458406 /* meterInterfaceController.swift */,
+				8756FBCE1E70A5E500458406 /* infoInterfaceController.swift */,
+			);
+			path = "hardbeat WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8770F7CA1E68A1D500CC1EB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8770F7CB1E68A1D500CC1EB6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8770F7EB1E68A4FE00CC1EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877EAE531E73C844000AC31A /* RealmSwift.framework */,
+				877EAE511E73C83E000AC31A /* Charts.framework */,
+				87AAE56D1E6956D000A0F850 /* libsqlite3.tbd */,
+				87AAE56B1E6956C200A0F850 /* CoreData.framework */,
+				87AAE5691E69569100A0F850 /* GTMDefines.h */,
+				87AAE5671E69552000A0F850 /* HealthKit.framework */,
+				8770F7F11E68AA5300CC1EB6 /* HealthKit.framework */,
+				21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8770F7F81E68CDB200CC1EB6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8770F7FD1E68CF2100CC1EB6 /* LoginViewController.swift */,
+				8764A4431E69436B00309C87 /* SignUpViewController.swift */,
+				877629331E696911001EA71E /* PerfilViewController.swift */,
+				87F2ECAA1E6A7D11003D59DF /* InformacionViewController.swift */,
+				872BA2F31E6D0F670019552D /* NoticiasTableViewController.swift */,
+				87B0CB561E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift */,
+				873017F81E6DEAA5009987CB /* NoticiaInfoViewController.swift */,
+				873017FA1E6DF262009987CB /* rutinasTableViewController.swift */,
+				873017FC1E6DF27B009987CB /* RutinasTableViewCell.swift */,
+				8740F0251E6FD8C4001C706D /* RutinaViewController.swift */,
+				8794EC311E7277A6002EF58A /* rutinaCompletaViewController.swift */,
+				877EAE4F1E738C94000AC31A /* graficasViewController.swift */,
+			);
+			name = controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8770F78D1E68A1D400CC1EB6 /* hardbeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8770F7E11E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat" */;
+			buildPhases = (
+				949FE541F27CC8D8FFE9A25F /* [CP] Check Pods Manifest.lock */,
+				8770F78A1E68A1D400CC1EB6 /* Sources */,
+				8770F78B1E68A1D400CC1EB6 /* Frameworks */,
+				8770F78C1E68A1D400CC1EB6 /* Resources */,
+				8770F7E01E68A1D500CC1EB6 /* Embed Watch Content */,
+				CBDCD5EEF1E204DB18961C80 /* [CP] Embed Pods Frameworks */,
+				BCE2A8D774063692A84AF6D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8770F7B91E68A1D500CC1EB6 /* PBXTargetDependency */,
+			);
+			name = hardbeat;
+			productName = hardbeat;
+			productReference = 8770F78E1E68A1D500CC1EB6 /* hardbeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8770F7A11E68A1D500CC1EB6 /* hardbeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8770F7E41E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeatTests" */;
+			buildPhases = (
+				8770F79E1E68A1D500CC1EB6 /* Sources */,
+				8770F79F1E68A1D500CC1EB6 /* Frameworks */,
+				8770F7A01E68A1D500CC1EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8770F7A41E68A1D500CC1EB6 /* PBXTargetDependency */,
+			);
+			name = hardbeatTests;
+			productName = hardbeatTests;
+			productReference = 8770F7A21E68A1D500CC1EB6 /* hardbeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8770F7AC1E68A1D500CC1EB6 /* hardbeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8770F7E71E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeatUITests" */;
+			buildPhases = (
+				8770F7A91E68A1D500CC1EB6 /* Sources */,
+				8770F7AA1E68A1D500CC1EB6 /* Frameworks */,
+				8770F7AB1E68A1D500CC1EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8770F7AF1E68A1D500CC1EB6 /* PBXTargetDependency */,
+			);
+			name = hardbeatUITests;
+			productName = hardbeatUITests;
+			productReference = 8770F7AD1E68A1D500CC1EB6 /* hardbeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8770F7B51E68A1D500CC1EB6 /* hardbeat WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8770F7DD1E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat WatchKit App" */;
+			buildPhases = (
+				8770F7B41E68A1D500CC1EB6 /* Resources */,
+				8770F7DC1E68A1D500CC1EB6 /* Embed App Extensions */,
+				A772197B6D6E2AD55D58E18C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8770F7C81E68A1D500CC1EB6 /* PBXTargetDependency */,
+			);
+			name = "hardbeat WatchKit App";
+			productName = "hardbeat WatchKit App";
+			productReference = 8770F7B61E68A1D500CC1EB6 /* hardbeat WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8770F7C41E68A1D500CC1EB6 /* hardbeat WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8770F7D91E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat WatchKit Extension" */;
+			buildPhases = (
+				8770F7C11E68A1D500CC1EB6 /* Sources */,
+				8770F7C21E68A1D500CC1EB6 /* Frameworks */,
+				8770F7C31E68A1D500CC1EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hardbeat WatchKit Extension";
+			productName = "hardbeat WatchKit Extension";
+			productReference = 8770F7C51E68A1D500CC1EB6 /* hardbeat WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8770F7861E68A1D400CC1EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = emmanuel;
+				TargetAttributes = {
+					8770F78D1E68A1D400CC1EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M372P8QPCJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					8770F7A11E68A1D500CC1EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8770F78D1E68A1D400CC1EB6;
+					};
+					8770F7AC1E68A1D500CC1EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8770F78D1E68A1D400CC1EB6;
+					};
+					8770F7B51E68A1D500CC1EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M372P8QPCJ;
+						ProvisioningStyle = Automatic;
+					};
+					8770F7C41E68A1D500CC1EB6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M372P8QPCJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8770F7891E68A1D400CC1EB6 /* Build configuration list for PBXProject "hardbeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8770F7851E68A1D400CC1EB6;
+			productRefGroup = 8770F78F1E68A1D500CC1EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8770F78D1E68A1D400CC1EB6 /* hardbeat */,
+				8770F7A11E68A1D500CC1EB6 /* hardbeatTests */,
+				8770F7AC1E68A1D500CC1EB6 /* hardbeatUITests */,
+				8770F7B51E68A1D500CC1EB6 /* hardbeat WatchKit App */,
+				8770F7C41E68A1D500CC1EB6 /* hardbeat WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8770F78C1E68A1D400CC1EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770F79C1E68A1D500CC1EB6 /* LaunchScreen.storyboard in Resources */,
+				87F34FD91E68FB6900A0405F /* GoogleService-Info.plist in Resources */,
+				8770F7991E68A1D500CC1EB6 /* Assets.xcassets in Resources */,
+				8770F7971E68A1D500CC1EB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7A01E68A1D500CC1EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7AB1E68A1D500CC1EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7B41E68A1D500CC1EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770F7BF1E68A1D500CC1EB6 /* Assets.xcassets in Resources */,
+				8770F7BD1E68A1D500CC1EB6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7C31E68A1D500CC1EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770F7D51E68A1D500CC1EB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		949FE541F27CC8D8FFE9A25F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE2A8D774063692A84AF6D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDCD5EEF1E204DB18961C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8770F78A1E68A1D400CC1EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873017F91E6DEAA5009987CB /* NoticiaInfoViewController.swift in Sources */,
+				8764A4441E69436B00309C87 /* SignUpViewController.swift in Sources */,
+				8770F7FE1E68CF2100CC1EB6 /* LoginViewController.swift in Sources */,
+				873017FB1E6DF262009987CB /* rutinasTableViewController.swift in Sources */,
+				8748D90D1E727094000BBE8C /* protocolRutina.swift in Sources */,
+				8770F7921E68A1D500CC1EB6 /* AppDelegate.swift in Sources */,
+				8748D90B1E72694D000BBE8C /* rutinaCompleta.swift in Sources */,
+				8740F0261E6FD8C4001C706D /* RutinaViewController.swift in Sources */,
+				877EAE501E738C94000AC31A /* graficasViewController.swift in Sources */,
+				8794EC321E7277A6002EF58A /* rutinaCompletaViewController.swift in Sources */,
+				8732EE611E6A411E00EB8E68 /* usuario.swift in Sources */,
+				877629341E696911001EA71E /* PerfilViewController.swift in Sources */,
+				873017FF1E6E0C52009987CB /* rutina.swift in Sources */,
+				87B0CB571E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift in Sources */,
+				87F2ECAB1E6A7D11003D59DF /* InformacionViewController.swift in Sources */,
+				872BA2F41E6D0F670019552D /* NoticiasTableViewController.swift in Sources */,
+				873017FD1E6DF27B009987CB /* RutinasTableViewCell.swift in Sources */,
+				87B0CB551E6D12E800EF92C6 /* noticia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F79E1E68A1D500CC1EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770F7A71E68A1D500CC1EB6 /* hardbeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7A91E68A1D500CC1EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770F7B21E68A1D500CC1EB6 /* hardbeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8770F7C11E68A1D500CC1EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8756FBCF1E70A5E500458406 /* infoInterfaceController.swift in Sources */,
+				873660E01E7079A3007FEAEE /* rutinaRow.swift in Sources */,
+				8770F7D11E68A1D500CC1EB6 /* NotificationController.swift in Sources */,
+				8770F7D31E68A1D500CC1EB6 /* ComplicationController.swift in Sources */,
+				8770F7CF1E68A1D500CC1EB6 /* ExtensionDelegate.swift in Sources */,
+				8770F7CD1E68A1D500CC1EB6 /* InterfaceController.swift in Sources */,
+				8756FBCD1E709A0000458406 /* meterInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8770F7A41E68A1D500CC1EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8770F78D1E68A1D400CC1EB6 /* hardbeat */;
+			targetProxy = 8770F7A31E68A1D500CC1EB6 /* PBXContainerItemProxy */;
+		};
+		8770F7AF1E68A1D500CC1EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8770F78D1E68A1D400CC1EB6 /* hardbeat */;
+			targetProxy = 8770F7AE1E68A1D500CC1EB6 /* PBXContainerItemProxy */;
+		};
+		8770F7B91E68A1D500CC1EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8770F7B51E68A1D500CC1EB6 /* hardbeat WatchKit App */;
+			targetProxy = 8770F7B81E68A1D500CC1EB6 /* PBXContainerItemProxy */;
+		};
+		8770F7C81E68A1D500CC1EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8770F7C41E68A1D500CC1EB6 /* hardbeat WatchKit Extension */;
+			targetProxy = 8770F7C71E68A1D500CC1EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8770F7951E68A1D500CC1EB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8770F7961E68A1D500CC1EB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8770F79A1E68A1D500CC1EB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8770F79B1E68A1D500CC1EB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8770F7BB1E68A1D500CC1EB6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8770F7BC1E68A1D500CC1EB6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8770F7D71E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8770F7D81E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8770F7DA1E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "hardbeat WatchKit Extension/hardbeat WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				INFOPLIST_FILE = "hardbeat WatchKit Extension/Info.plist";
+				LD_MAP_FILE_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat.watchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8770F7DB1E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "hardbeat WatchKit Extension/hardbeat WatchKit Extension.entitlements";
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				INFOPLIST_FILE = "hardbeat WatchKit Extension/Info.plist";
+				LD_MAP_FILE_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited) ";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat.watchkitapp.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8770F7DE1E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				IBSC_MODULE = hardbeat_WatchKit_Extension;
+				INFOPLIST_FILE = "hardbeat WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8770F7DF1E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				IBSC_MODULE = hardbeat_WatchKit_Extension;
+				INFOPLIST_FILE = "hardbeat WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8770F7E21E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hardbeat/hardbeat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				INFOPLIST_FILE = hardbeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hardbeat/hardbeat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8770F7E31E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hardbeat/hardbeat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M372P8QPCJ;
+				INFOPLIST_FILE = hardbeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hardbeat/hardbeat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8770F7E51E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hardbeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hardbeat.app/hardbeat";
+			};
+			name = Debug;
+		};
+		8770F7E61E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hardbeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hardbeat.app/hardbeat";
+			};
+			name = Release;
+		};
+		8770F7E81E68A1D500CC1EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hardbeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hardbeat;
+			};
+			name = Debug;
+		};
+		8770F7E91E68A1D500CC1EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hardbeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hardbeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8770F7891E68A1D400CC1EB6 /* Build configuration list for PBXProject "hardbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7D71E68A1D500CC1EB6 /* Debug */,
+				8770F7D81E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8770F7D91E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7DA1E68A1D500CC1EB6 /* Debug */,
+				8770F7DB1E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8770F7DD1E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7DE1E68A1D500CC1EB6 /* Debug */,
+				8770F7DF1E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8770F7E11E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7E21E68A1D500CC1EB6 /* Debug */,
+				8770F7E31E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8770F7E41E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7E51E68A1D500CC1EB6 /* Debug */,
+				8770F7E61E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8770F7E71E68A1D500CC1EB6 /* Build configuration list for PBXNativeTarget "hardbeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8770F7E81E68A1D500CC1EB6 /* Debug */,
+				8770F7E91E68A1D500CC1EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8770F7861E68A1D400CC1EB6 /* Project object */;
+}

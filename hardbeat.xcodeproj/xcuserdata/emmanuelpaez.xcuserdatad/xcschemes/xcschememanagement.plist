@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>hardbeat WatchKit App (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>hardbeat WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>hardbeat WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>hardbeat.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8770F78D1E68A1D400CC1EB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8770F7A11E68A1D500CC1EB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8770F7AC1E68A1D500CC1EB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8770F7B51E68A1D500CC1EB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

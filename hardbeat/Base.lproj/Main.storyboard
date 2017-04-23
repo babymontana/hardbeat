@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -255,7 +255,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fKv-PX-B19">
-                                <rect key="frame" x="0.0" y="0.0" width="379" height="625"/>
+                                <rect key="frame" x="0.0" y="0.0" width="379" height="624.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="59P-UR-RVj">
@@ -435,11 +435,12 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                         <segue destination="RgJ-Ih-v5T" kind="relationship" relationship="viewControllers" id="uaA-P2-E82"/>
                         <segue destination="gfl-gm-X4K" kind="relationship" relationship="viewControllers" id="K5A-ak-dx3"/>
                         <segue destination="oqW-35-Qu0" kind="relationship" relationship="viewControllers" id="Ufl-hB-pJI"/>
+                        <segue destination="0rx-Yz-7Fe" kind="relationship" relationship="viewControllers" id="4JN-fN-1Ag"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5K-Ah-FUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1326" y="107"/>
+            <point key="canvasLocation" x="1326" y="-139"/>
         </scene>
         <!--Noticias-->
         <scene sceneID="PPo-a6-LAn">
@@ -561,7 +562,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m3u-be-oz1">
-                                <rect key="frame" x="0.0" y="0.0" width="350" height="582"/>
+                                <rect key="frame" x="0.0" y="0.0" width="350" height="581.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55V-eh-DwD">
@@ -624,7 +625,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1O-B1-U1j" customClass="MBCircularProgressBarView">
                                                 <rect key="frame" x="0.0" y="0.0" width="87.5" height="128"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfR-Ma-7l9">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfR-Ma-7l9">
                                                         <rect key="frame" x="24" y="53" width="42" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="sfR-Ma-7l9" secondAttribute="height" multiplier="2:1" id="bvK-4L-3h9"/>
@@ -658,7 +659,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="43l-hZ-Zlm" customClass="MBCircularProgressBarView">
                                                 <rect key="frame" x="87.5" y="0.0" width="87.5" height="128"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYb-wg-E9B">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYb-wg-E9B">
                                                         <rect key="frame" x="24" y="53" width="42" height="21"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="BYb-wg-E9B" secondAttribute="height" multiplier="2:1" id="4og-Az-1NW"/>
@@ -695,7 +696,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBg-CY-5cb" customClass="MBCircularProgressBarView">
                                                 <rect key="frame" x="175" y="0.0" width="87.5" height="128"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whV-ix-383">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whV-ix-383">
                                                         <rect key="frame" x="24" y="53.5" width="42" height="20.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="whV-ix-383" secondAttribute="height" multiplier="21:10" id="Y9Q-jP-vAL"/>
@@ -907,7 +908,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DV8-c0-LoT">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="601"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="600.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzG-So-dO9">
@@ -1104,6 +1105,25 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
             </objects>
             <point key="canvasLocation" x="4380" y="-254.12293853073464"/>
         </scene>
+        <!--Chat-->
+        <scene sceneID="ogh-Ir-Ims">
+            <objects>
+                <viewController title="Chat" id="0rx-Yz-7Fe" customClass="ChatViewController" customModule="hardbeat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D79-Pt-i6f"/>
+                        <viewControllerLayoutGuide type="bottom" id="PmI-e9-GFx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AvL-ZP-uLL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="chat" id="R1Y-Nx-cJS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qZQ-NG-vEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2361" y="-960"/>
+        </scene>
         <!--Noticias-->
         <scene sceneID="lSc-oH-Yws">
             <objects>
@@ -1134,7 +1154,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lOi-eS-31P">
-                                <rect key="frame" x="0.0" y="0.0" width="365" height="660"/>
+                                <rect key="frame" x="0.0" y="0.0" width="365" height="659.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c2b-QQ-PGf">
@@ -1267,6 +1287,7 @@ HardBEAT, con domicilio en Calle del Puente, 222, Colonia Ejidos de Huipulco, Tl
         <image name="001-user" width="24" height="24"/>
         <image name="003-charity" width="24" height="24"/>
         <image name="004-weightlifter" width="24" height="24"/>
+        <image name="chat" width="24" height="24"/>
         <image name="logo" width="705" height="393"/>
     </resources>
     <inferredMetricsTieBreakers>

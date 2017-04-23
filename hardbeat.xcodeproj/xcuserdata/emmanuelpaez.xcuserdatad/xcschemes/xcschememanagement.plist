@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OneSignalNotificationServiceExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>hardbeat WatchKit App (Complication).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>8770F7B51E68A1D500CC1EB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87D6426F1EAB1E3600245D07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

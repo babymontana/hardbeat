@@ -47,6 +47,7 @@
 		87AAE56E1E6956D000A0F850 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AAE56D1E6956D000A0F850 /* libsqlite3.tbd */; };
 		87B0CB551E6D12E800EF92C6 /* noticia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0CB541E6D12E800EF92C6 /* noticia.swift */; };
 		87B0CB571E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0CB561E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift */; };
+		87D6426B1EAAC16100245D07 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D6426A1EAAC16100245D07 /* ChatViewController.swift */; };
 		87F2ECAB1E6A7D11003D59DF /* InformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F2ECAA1E6A7D11003D59DF /* InformacionViewController.swift */; };
 		87F34FD91E68FB6900A0405F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87F34FD81E68FB6900A0405F /* GoogleService-Info.plist */; };
 		E587B158E4639B1F6C4CCF94 /* Pods_hardbeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */; };
@@ -106,12 +107,24 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87D6427B1EAB1E3700245D07 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hardbeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardbeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat.release.xcconfig"; sourceTree = "<group>"; };
+		3FF6DC82F05EAD3FB0F8800E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardbeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hardbeat/Pods-hardbeat.debug.xcconfig"; sourceTree = "<group>"; };
+		762271106B7CD0387420121C /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		872BA2F31E6D0F670019552D /* NoticiasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiasTableViewController.swift; sourceTree = "<group>"; };
 		873017F81E6DEAA5009987CB /* NoticiaInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaInfoViewController.swift; sourceTree = "<group>"; };
 		873017FA1E6DF262009987CB /* rutinasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rutinasTableViewController.swift; sourceTree = "<group>"; };
@@ -165,8 +178,10 @@
 		87AAE56D1E6956D000A0F850 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		87B0CB541E6D12E800EF92C6 /* noticia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noticia.swift; sourceTree = "<group>"; };
 		87B0CB561E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticiaTableViewCell.swift; sourceTree = "<group>"; };
+		87D6426A1EAAC16100245D07 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		87F2ECAA1E6A7D11003D59DF /* InformacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionViewController.swift; sourceTree = "<group>"; };
 		87F34FD81E68FB6900A0405F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E85CC0890DF222EE232F0436 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +235,8 @@
 			children = (
 				66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */,
 				3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */,
+				E85CC0890DF222EE232F0436 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				3FF6DC82F05EAD3FB0F8800E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -344,6 +361,7 @@
 				87AAE5671E69552000A0F850 /* HealthKit.framework */,
 				8770F7F11E68AA5300CC1EB6 /* HealthKit.framework */,
 				21223DFF66061FA7243D3591 /* Pods_hardbeat.framework */,
+				762271106B7CD0387420121C /* libPods-OneSignalNotificationServiceExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -363,6 +381,7 @@
 				8740F0251E6FD8C4001C706D /* RutinaViewController.swift */,
 				8794EC311E7277A6002EF58A /* rutinaCompletaViewController.swift */,
 				877EAE4F1E738C94000AC31A /* graficasViewController.swift */,
+				87D6426A1EAAC16100245D07 /* ChatViewController.swift */,
 			);
 			name = controller;
 			path = ..;
@@ -382,6 +401,7 @@
 				8770F7E01E68A1D500CC1EB6 /* Embed Watch Content */,
 				CBDCD5EEF1E204DB18961C80 /* [CP] Embed Pods Frameworks */,
 				BCE2A8D774063692A84AF6D0 /* [CP] Copy Pods Resources */,
+				87D6427B1EAB1E3700245D07 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -470,7 +490,7 @@
 		8770F7861E68A1D400CC1EB6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = emmanuel;
 				TargetAttributes = {
@@ -482,10 +502,16 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
 							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
 							com.apple.HealthKit = {
 								enabled = 1;
 							};
 							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
 								enabled = 0;
 							};
 						};
@@ -648,6 +674,7 @@
 				877EAE501E738C94000AC31A /* graficasViewController.swift in Sources */,
 				8794EC321E7277A6002EF58A /* rutinaCompletaViewController.swift in Sources */,
 				8732EE611E6A411E00EB8E68 /* usuario.swift in Sources */,
+				87D6426B1EAAC16100245D07 /* ChatViewController.swift in Sources */,
 				877629341E696911001EA71E /* PerfilViewController.swift in Sources */,
 				873017FF1E6E0C52009987CB /* rutina.swift in Sources */,
 				87B0CB571E6D2F7D00EF92C6 /* NoticiaTableViewCell.swift in Sources */,
@@ -862,7 +889,7 @@
 				INFOPLIST_FILE = "hardbeat WatchKit Extension/Info.plist";
 				LD_MAP_FILE_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited) ";
+				LIBRARY_SEARCH_PATHS = "$(inherited)  ";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = itesm.emmanuelPaez.hardbeat.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -915,6 +942,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66E5D6B144177852A6B72001 /* Pods-hardbeat.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = hardbeat/hardbeat.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -934,6 +962,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BD7ED782CCAFAECBA3274D7 /* Pods-hardbeat.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = hardbeat/hardbeat.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

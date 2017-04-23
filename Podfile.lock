@@ -38,6 +38,9 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
   - GTMSessionFetcher/Core (1.1.8)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
   - MBCircularProgressBar (0.3.5)
   - Realm (1.1.0):
     - Realm/Headers (= 1.1.0)
@@ -51,6 +54,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - FirebaseAuth
   - FirebaseDatabase
+  - JSQMessagesViewController
   - MBCircularProgressBar
   - RealmSwift
 
@@ -65,10 +69,12 @@ SPEC CHECKSUMS:
   FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
   Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
   RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
 
-PODFILE CHECKSUM: 843dd14a9fa8f13eadba2ec6d9e231cbc1d8b0d6
+PODFILE CHECKSUM: 794f46c96d41031fd92b8e8de93f3a483a91d8e6
 
 COCOAPODS: 1.2.0

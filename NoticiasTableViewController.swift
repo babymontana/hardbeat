@@ -38,7 +38,7 @@ class NoticiasTableViewController: UITableViewController {
         let item = items[indexPath.row]
         cell.titulo?.text = item.Titulo
         let storage = FIRStorage.storage()
-        let storageRef = storage.reference(forURL: "gs://hartbeat-27d5b.appspot.com/")
+        let storageRef = storage.reference(forURL: "gs://examen-1474333334103.appspot.com/")
         let imgRef = storageRef.child("noticias/"+item.Ref+"/image.png")
         imgRef.data(withMaxSize: 1 * 1024 * 1024) { (data, error) -> Void in
             if (error != nil) {

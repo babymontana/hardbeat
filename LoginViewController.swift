@@ -54,7 +54,7 @@ class LoginViewController: UIViewController {
         } else {
             
             FIRAuth.auth()?.signIn(withEmail: self.correo.text!, password: self.password.text!) { (user, error) in
-                
+                print(error)
                 if error == nil {
                     
                     

@@ -11,6 +11,7 @@ target 'hardbeat' do
    pod 'MBCircularProgressBar'
    pod 'Charts/Realm'
    pod 'RealmSwift'
+   pod 'JSQMessagesViewController'
 
   # Pods for hardbeat
 
@@ -22,6 +23,5 @@ target 'hardbeat' do
     end
   end
 
-
-
 end
+
